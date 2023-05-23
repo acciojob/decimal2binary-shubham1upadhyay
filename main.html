@@ -7,10 +7,10 @@
 </head>
 
 <body>
-	<form method="post" failOnStatusCode=false>
-		<input type="text" id="decimal"/>
-		<input onclick="decimalToBinary(); return false;" type="submit" value="Submit"/>
-	</form>
+	<form onsubmit="event.preventDefault(); decimalToBinary();">
+    <input type="text" id="decimal" />
+    <input type="submit" value="Submit" />
+</form>
 
 	 <p id="ans"></p>
 	
