@@ -7,6 +7,3 @@ function decimalToBinary() {
   }
 	document.getElementById("ans").innerHTML = binary;
 }
-
-
-module.exports = decimalToBinary;
